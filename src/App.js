@@ -1,25 +1,33 @@
-import logo from './logo.svg';
-import './App.css';
+import Logo from './logo.svg';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+export default function App() {
+    return (
+        <div className="App">
+            <header>
+                <img src={Logo} width="60px"></img>
+                <div className='title'>
+                    <div>ИНФОРМАЦИОННЫЙ ПОРТАЛ</div>
+                    <div className='tehkarta'>ТЕХКАРТА</div>
+                </div>
+
+            </header>
+            <main>
+                <div className='lightString'>Обозначение:</div>
+                <div className='darkString'>ТТК-100987457.180-2020</div>
+                <div className='lightString'>Наименование:</div>
+                <div className='darkString'>Типовая технологическая карта на устройство</div>
+                <div className='darkString'>труб бамбуковых</div>
+                <div className='lightString'>Действует до:</div>
+                <div className='darkString'>2026-04-01</div>
+                <div className='lightString'>Приобретена:</div>
+                <div className='darkString'>ООО "РогаКопыта"</div>
+            </main>
+
+
+
+        </div>
+    )
 }
 
-export default App;
+
+

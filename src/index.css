@@ -11,3 +11,35 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+header {
+  display: flex;
+  flex-direction: row;
+  padding: 10px 10px 10px 40px;
+  width: 100vw;
+}
+
+.title {
+  text-align: center;
+  color: rgb(8, 102, 71);
+  width: 100vw;
+  font-weight: 500;
+  padding: 20px 0px 0px 0px;
+}
+
+.tehkarta {
+  font-size: 40px;
+  font-weight: 700;
+}
+
+.lightString {
+  background-color: rgb(8, 102, 71);
+  color: aliceblue;
+}
+
+.darkString {
+background-color: rgb(236, 236, 236);
+}
+
+main {
+  padding-left: 10px;
+}
